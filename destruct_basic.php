@@ -1,11 +1,10 @@
 <?php
 $data=[1,2,3,4,5];
-[$a,$b,$d,$e]=$data;
+[1=>$a,4=>$b]=$data;
 echo $a;
 echo $b;
 
-echo $d;
-echo $e;
+
 
 
 
