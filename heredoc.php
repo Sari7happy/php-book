@@ -1,9 +1,9 @@
 <?php
 $str ='PHP(PHP:Hypertext Preprocessor)';
 $msg =<<<EOD
-{$str}は、サーバーサイドで動作する簡易的なスクリプト言語です。
-まずは基礎を固めましょう！
-</br>
+{$str}は、健太郎は優しい。
+
+
 "let's start,everyone!"
 EOD;
 echo $msg;
