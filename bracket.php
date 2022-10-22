@@ -12,5 +12,6 @@ $data[]='山都';
 $data[]='山崎';
 $data[]='山上';
 
-echo$data[1];
+$data[]='山空';
+print_r($data);
 ?>
