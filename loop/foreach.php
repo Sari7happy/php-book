@@ -1,9 +1,9 @@
 <?php
 $books = [
-    ['独学PHP', '3000'],
-    ['独学HTML', '2000'],
-    ['独学CSS', '1000'],
+    ['title'=>'独学PHP', 'price'=>3000],
+    ['title'=>'独学HTML', 'price'=>2500],
+    ['title'=>'独学CSS', 'price'=>1000],
 ];
-foreach ($books as [$title, $price]) {
+foreach ($books as ['title'=>$title, 'price'=>$price]) {
     print "{$title} ({$price}円)<br/>";
 }
