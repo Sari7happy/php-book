@@ -1,11 +1,17 @@
 <?php
 
 
-for($i =1;$i<10;$i++){
-    for($j =1;$j<10;$j++){
-        $result =$i*$j;
-        if($result>40){break;}
-        print"{$result}&nbsp;";
+for($i =1;$i<4;$i++){
+   
+    $result =0;
+    switch($i){
+        case 1:
+        case 3:
+            $result =$i*$i;
+            break;
+        case 2:
+            continue;
+    
     }
-print '<br/>';
+    print"{$i}の2乗は{$result}です<br/>";
 }
