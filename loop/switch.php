@@ -1,19 +1,14 @@
 <?php
-$rank ='丙';
-switch ($rank){
-    case '甲';
-        print '大変良いです';
+$drink ='ウイスキー';
+switch ($drink){
+    case '日本酒';
+    case 'ビール';
+    case 'ワイン';
+        print '醸造酒';
         break;
-    case '乙';
-        print '良いです';
-        break;
-    case '丙';
-        print 'もう少しがんばりましょyう';
-        break;
-    default :
-        print '???';
+    case 'ブランデー';
+    case 'ウイスキー';
+        print '蒸留酒';
         break;
 
 }
-
-?>
