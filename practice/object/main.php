@@ -7,7 +7,7 @@ declare(strict_types=1);  ?>
     require_once dirname(__FILE__) . '/task1.php';
     $task1 = new Task();
     $task1->name = 'パスポートの更新';
-    $task1->progress = 50;
+    $task1->progress = 90;
     if ($task1->isCompleted() === true) {
         echo $task1->name, '完了しました', PHP_EOL;
     } else {
